@@ -40,7 +40,6 @@ function renderProduk(data) {
         <div class="card h-100 shadow-sm">
           <img src="${product.Gambar}" class="card-img-top" alt="${product.Nama}">
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title">${product.Nama}</h5>
             <p class="card-text">${product.Deskripsi}</p>
             <p class="fw-bold text-primary">${product.Harga}</p>
             <a href="${product.Link}" target="_blank" class="btn btn-primary mt-auto">Lihat Produk</a>
