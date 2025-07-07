@@ -1,5 +1,5 @@
 // Tracking kunjungan halaman (index.html misalnya)
-fetch("https://script.google.com/macros/s/AKfycbzruB_A6xWxAIwVgP3qmpO4DtUA6Rtv64_MmBX0MEMaOj1n43MTsgSbiqv58SrIeuW8/exec", {
+fetch("https://script.google.com/macros/s/AKfycbw5K2IQDLdIsc0598ccX_5H5AwavzhTy-imbajTqWs/exec", {
   method: "POST",
   body: JSON.stringify({
     aksi: "kunjungan",
@@ -13,7 +13,7 @@ fetch("https://script.google.com/macros/s/AKfycbzruB_A6xWxAIwVgP3qmpO4DtUA6Rtv64
 
 // Tracking klik produk afiliasi
 function laporKlik(namaProduk) {
-  fetch("https://script.google.com/macros/s/AKfycbzruB_A6xWxAIwVgP3qmpO4DtUA6Rtv64_MmBX0MEMaOj1n43MTsgSbiqv58SrIeuW8/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbw5K2IQDLdIsc0598ccX_5H5AwavzhTy-imbajTqWs/exec", {
     method: "POST",
     body: JSON.stringify({
       aksi: "klik_produk",
