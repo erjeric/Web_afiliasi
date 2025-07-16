@@ -38,8 +38,9 @@ function renderProduk(data) {
     const html = `
       <div class="col-md-4 mb-4">
         <div class="card h-100 shadow-sm">
-          <img src="${product.Gambar}" class="card-img-top" alt="${product.Nama}">
+          <img src="${product.Gambar}" >
           <div class="card-body d-flex flex-column">
+          <p class="card-img-top"> ${product.Nama}</p>
             <p class="card-text">${product.Deskripsi}</p>
             <p class="fw-bold text-primary">${product.Harga}</p>
             <a href="${product.Link}" target="_blank" class="btn btn-primary mt-auto">Lihat Produk</a>
